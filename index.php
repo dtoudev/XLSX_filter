@@ -2,7 +2,6 @@
 include_once 'SimpleXLSX.php';
 
 $xlsx = new SimpleXLSX('xxxx.xlsx');
-$con = new mysqli('localhost', 'root', '', 'moscoso');	
 
 // Abrir un nuevo archivo CSV para escritura
 $csv = fopen('new_file.csv', 'w');
